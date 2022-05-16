@@ -11,13 +11,13 @@ const Stories = () => {
             <Image source={{ uri: story.image }} style={styles.story} />
             <Text style={{ color: "white" }}>
               {story.user.length > 11
-                ? story.user.slice(0, 10).toLowerCase() + "..."
+                ? story.user.slice(0, 10).toLowerCase() + " ... "
                 : story.user.toLowerCase()}
             </Text>
           </View>
         ))}
       </ScrollView>
-      <Text style={{ color: "white" }}>Stories</Text>
+      <Text style={{ color: "white" }}></Text>
     </View>
   );
 };
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     height: 70,
     borderRadius: 50,
     marginLeft: 6,
-    borderWidth: 3,
+    borderWidth: 2,
     borderColor: "#ff8501",
   },
 });
