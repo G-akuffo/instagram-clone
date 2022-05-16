@@ -19,9 +19,9 @@ export const USERS = [
     image: "https://pbs.twimg.com/media/FAdCdvNWYAAK-nJ?format=jpg&name=large",
   },
   {
-    user: "gameboytagoe",
+    user: "joeysins",
     image:
-      "https://pbs.twimg.com/profile_images/1507480399517208576/CxLeSuHT_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1479143741772292105/aC5_d4wg_400x400.jpg",
   },
   {
     user: "kingtee",
