@@ -6,7 +6,7 @@ import { POSTS } from "./../../data/posts";
 const Post = ({ post }) => {
   return (
     <View style={{ marginBottom: 30 }}>
-      <Divider width={1} orientation="horizontal" />
+      <Divider width={1} orientation="vertical" />
       <PostHeader post={post} />
       <Text style={{ color: "white" }}>{POSTS.user}</Text>
     </View>

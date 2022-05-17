@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/home/Header";
 import Stories from "../components/home/Stories";
 import Post from "../components/home/Post";
+import { POSTS } from "./../data/posts";
 
 const HomeScreen = () => {
   return (
@@ -10,11 +11,10 @@ const HomeScreen = () => {
       <Header />
       <Stories />
       <ScrollView>
-        {POST.map((post, index) => (
+        {POSTS.map((post, index) => (
           <Post post={post} key={index} />
         ))}
       </ScrollView>
-      <Post />
     </SafeAreaView>
   );
 };
